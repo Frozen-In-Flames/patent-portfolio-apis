@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patent Portfolio APIs: live demo (OpticsCo x Photonix merger)</title>
+<meta name="description" content="Static demo of Patent Portfolio APIs v0.2.0: two USPTO patent portfolios merged, showing shared concepts, redundant pairs, and coverage gaps. Free, Apache-2.0.">
+<style>
+:root{
+  --bg:#0d0f14; --panel:#151923; --panel2:#1b2130; --line:#2a3145;
+  --ink:#e8ecf4; --muted:#9aa3b8; --accent:#ff6a2b; --accent2:#ffb02b;
+  --good:#3ddc84; --link:#7aa5ff;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;padding:0;line-height:1.55}
+.wrap{max-width:1024px;margin:0 auto;padding:2rem 1.25rem 4rem}
+.hero{border:1px solid var(--line);border-radius:14px;padding:2rem;background:linear-gradient(160deg,#181d2b 0%,#0d0f14 70%);position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(600px 200px at 20% 0%,rgba(255,106,43,.18),transparent 70%);pointer-events:none}
+.hero h1{margin:.2rem 0 .6rem;font-size:2rem;letter-spacing:-.02em}
+.hero h1 .flame{color:var(--accent)}
+.kicker{display:inline-block;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent2);border:1px solid var(--line);border-radius:999px;padding:.2rem .8rem;background:#141824}
+.hero p{color:var(--muted);max-width:62ch}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.75rem;margin:1.5rem 0}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:1rem}
+.stat .n{font-size:1.9rem;font-weight:700;color:var(--accent2)}
+.stat .l{font-size:.8rem;color:var(--muted)}
+h2{margin:2.5rem 0 .75rem;font-size:1.35rem}
+h2 .sub{display:block;font-size:.85rem;color:var(--muted);font-weight:400;margin-top:.2rem}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:1rem 1.25rem;margin:.75rem 0}
+.card.hot{border-color:var(--accent);background:linear-gradient(180deg,#1d1520,#151923)}
+.pair-head{display:flex;flex-wrap:wrap;gap:.5rem;align-items:baseline;justify-content:space-between}
+.score{background:var(--accent);color:#111;font-weight:700;border-radius:6px;padding:.1rem .6rem;font-size:.85rem}
+.chip{display:inline-block;background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:.15rem .7rem;font-size:.8rem;margin:.15rem}
+.chip.dim{color:var(--muted)}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+a{color:var(--link)}
+code{background:#0a0c11;border:1px solid var(--line);border-radius:6px;padding:.15rem .45rem;font-size:.85em}
+pre{background:#0a0c11;border:1px solid var(--line);border-radius:10px;padding:1rem;overflow-x:auto;font-size:.85rem}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+@media(max-width:640px){.grid2{grid-template-columns:1fr}.hero h1{font-size:1.5rem}}
+.btnrow{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.25rem 0}
+.btn{display:inline-block;border:1px solid var(--line);border-radius:10px;padding:.65rem 1.2rem;text-decoration:none;color:var(--ink);background:var(--panel);font-weight:600}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#14100b}
+.btn:hover{filter:brightness(1.12)}
+.foot{margin-top:3rem;color:var(--muted);font-size:.8rem;border-top:1px solid var(--line);padding-top:1rem}
+.note{font-size:.8rem;color:var(--muted)}
+.err{background:#2a1215;border:1px solid #7a2b2b;border-radius:10px;padding:1rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <span class="kicker">Live demo &middot; v0.2.0 &middot; M&amp;A merge</span>
+    <h1><span class="flame">Frozen in Flames</span> Patent Portfolio APIs</h1>
+    <p>This page is the output of one real run: <span class="mono">python cli.py merge</span> on two
+    3-patent LiDAR portfolios pulled from the USPTO public search API. No mock data. Every number below
+    comes from <span class="mono">merge.json</span> sitting next to this page.</p>
+    <div class="btnrow">
+      <a class="btn primary" href="https://github.com/AriesConsulting/patent-portfolio-apis">GitHub (Apache-2.0)</a>
+      <a class="btn" href="https://frozen-in-flames.itch.io/patent-portfolio-apis">Free download (itch.io)</a>
+    </div>
+  </div>
+
+  <div id="app"><p class="note">Loading demo data&hellip;</p></div>
+
+  <h2>Run it yourself <span class="sub">Free, runs locally, no API key. Give it patent numbers or an inventor name.</span></h2>
+  <pre>git clone https://github.com/AriesConsulting/patent-portfolio-apis.git
+cd patent-portfolio-apis
+python cli.py portfolio --inventor "Ada Lovelace"
+python cli.py merge --a 12748190,12748198,10000000 --b 12754414,12748194,12749956</pre>
+
+  <div class="foot">
+    Built by Aries Hilton (Frozen in Flames). Apache-2.0. Patent data: USPTO public search API.
+    This demo shows overlap analysis only; it is not legal advice and makes no claim about patent validity.
+  </div>
+</div>
+
+<script>
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+function us(n){return "US "+esc(n);}
+function patentLink(n){return '<a class="mono" href="https://ppubs.uspto.gov/pubwebapp/static/pages/ppubsbasic.html" title="USPTO public search">'+us(n)+'</a>';}
+
+function renderDemo(d){
+  var out = "";
+
+  out += '<div class="stats">'
+    + '<div class="stat"><div class="n">'+d.overlap_concept_count+'</div><div class="l">shared technical concepts</div></div>'
+    + '<div class="stat"><div class="n">'+d.redundant_pairs.length+'</div><div class="l">ranked redundant pairs</div></div>'
+    + '<div class="stat"><div class="n">'+d.unique_a_count+' / '+d.unique_b_count+'</div><div class="l">concepts unique to each side</div></div>'
+    + '<div class="stat"><div class="n">'+d.cpc_overlap.length+'</div><div class="l">shared CPC classes</div></div>'
+    + '</div>';
+
+  out += '<h2>The portfolios <span class="sub">OpticsCo ('+d.a.patent_count+' patents) vs Photonix ('+d.b.patent_count+' patents). M&amp;A question: where do they overlap, where are the gaps, what is double-held?</span></h2>';
+
+  out += '<h2>Most redundant pair <span class="sub">Highest overlap score in the run. This is the double-holding a diligence team would price first.</span></h2>';
+  var top = d.redundant_pairs[0];
+  out += '<div class="card hot"><div class="pair-head"><div><b>'+us(top.a_number)+'</b> '+esc(top.a_title)
+    + '<br><b>'+us(top.b_number)+'</b> '+esc(top.b_title)+'</div>'
+    + '<span class="score">overlap score '+top.score+'</span></div>'
+    + '<p class="note">Shared CPC: '+top.shared_cpc.map(esc).join(", ")+'</p>'
+    + '<div>'+top.shared_concepts.map(function(c){return '<span class="chip">'+esc(c)+'</span>';}).join("")+'</div></div>';
+
+  out += '<h2>All redundant pairs, ranked <span class="sub">Cross-portfolio pairs sharing concepts and CPC classes, highest score first.</span></h2>';
+  d.redundant_pairs.slice(1).forEach(function(p){
+    out += '<div class="card"><div class="pair-head"><div><b>'+us(p.a_number)+'</b> '+esc(p.a_title)
+      + '<br><b>'+us(p.b_number)+'</b> '+esc(p.b_title)+'</div>'
+      + '<span class="score">score '+p.score+'</span></div>'
+      + '<div style="margin-top:.5rem">'+p.shared_concepts.map(function(c){return '<span class="chip dim">'+esc(c)+'</span>';}).join("")+'</div></div>';
+  });
+
+  out += '<h2>Shared concepts <span class="sub">Top 20 of '+d.overlap_concept_count+'. Each chip shows how many patents on each side use the concept.</span></h2><div class="card">';
+  d.concept_overlap.slice(0,20).forEach(function(c){
+    out += '<span class="chip">'+esc(c.label)+' <span class="dim">A:'+c.a_patents.length+' B:'+c.b_patents.length+'</span></span>';
+  });
+  out += '</div>';
+
+  out += '<h2>Coverage gaps <span class="sub">Concepts each side holds that the other does not. Sample of 12 per side; full lists ship in the JSON.</span></h2><div class="grid2">';
+  out += '<div class="card"><b>Only in OpticsCo</b><div style="margin-top:.5rem">'
+    + d.concepts_unique_to_a.slice(0,12).map(function(c){return '<span class="chip dim">'+esc(c.label)+'</span>';}).join("")+'</div></div>';
+  out += '<div class="card"><b>Only in Photonix</b><div style="margin-top:.5rem">'
+    + d.concepts_unique_to_b.slice(0,12).map(function(c){return '<span class="chip dim">'+esc(c.label)+'</span>';}).join("")+'</div></div>';
+  out += '</div>';
+
+  out += '<h2>Shared CPC classes</h2><div class="card">'
+    + d.cpc_overlap.map(function(c){return '<span class="chip mono">'+esc(c.code)+'</span>';}).join("")
+    + '<p class="note" style="margin-bottom:0">Plus '+d.cpc_unique_to_a.length+' classes unique to OpticsCo and '+d.cpc_unique_to_b.length+' unique to Photonix.</p></div>';
+
+  out += '<h2>Full data</h2><p><a class="mono" href="./merge.json">merge.json</a> <span class="note">(the exact file this page renders)</span> &middot; '
+    + '<a href="https://github.com/AriesConsulting/patent-portfolio-apis/blob/main/examples/merger-demo/MERGER.md">MERGER.md diligence report</a></p>';
+
+  return out;
+}
+
+fetch("./merge.json").then(function(r){
+  if(!r.ok) throw new Error("HTTP "+r.status);
+  return r.json();
+}).then(function(d){
+  document.getElementById("app").innerHTML = renderDemo(d);
+}).catch(function(e){
+  document.getElementById("app").innerHTML = '<div class="err">Demo data failed to load: '+esc(e.message)+'. The JSON lives at <span class="mono">./merge.json</span> next to this page.</div>';
+});
+</script>
+</body>
+</html>

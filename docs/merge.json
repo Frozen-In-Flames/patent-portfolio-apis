@@ -1,0 +1,1663 @@
+{
+ "a": {
+  "title": "OpticsCo",
+  "patent_count": 3,
+  "numbers": [
+   "10000000",
+   "12748198",
+   "12748190"
+  ]
+ },
+ "b": {
+  "title": "Photonix",
+  "patent_count": 3,
+  "numbers": [
+   "12754414",
+   "12748194",
+   "12749956"
+  ]
+ },
+ "concept_overlap": [
+  {
+   "label": "axis",
+   "a_patents": [
+    "12748190"
+   ],
+   "b_patents": [
+    "12749956",
+    "12754414"
+   ]
+  },
+  {
+   "label": "components",
+   "a_patents": [
+    "10000000",
+    "12748198"
+   ],
+   "b_patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "detection and ranging",
+   "a_patents": [
+    "10000000"
+   ],
+   "b_patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "element",
+   "a_patents": [
+    "10000000",
+    "12748190"
+   ],
+   "b_patents": [
+    "12748194",
+    "12749956",
+    "12754414"
+   ]
+  },
+  {
+   "label": "frequency",
+   "a_patents": [
+    "10000000",
+    "12748198"
+   ],
+   "b_patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "lidar",
+   "a_patents": [
+    "12748190",
+    "12748198"
+   ],
+   "b_patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "light",
+   "a_patents": [
+    "10000000",
+    "12748190",
+    "12748198"
+   ],
+   "b_patents": [
+    "12748194",
+    "12754414"
+   ]
+  },
+  {
+   "label": "optical",
+   "a_patents": [
+    "12748190"
+   ],
+   "b_patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "output",
+   "a_patents": [
+    "10000000",
+    "12748198"
+   ],
+   "b_patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "position",
+   "a_patents": [
+    "12748190",
+    "12748198"
+   ],
+   "b_patents": [
+    "12748194",
+    "12749956"
+   ]
+  },
+  {
+   "label": "receive",
+   "a_patents": [
+    "10000000",
+    "12748190",
+    "12748198"
+   ],
+   "b_patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "reflected",
+   "a_patents": [
+    "10000000",
+    "12748190",
+    "12748198"
+   ],
+   "b_patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "reflective",
+   "a_patents": [
+    "12748190"
+   ],
+   "b_patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "rotating",
+   "a_patents": [
+    "12748190"
+   ],
+   "b_patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "rotation",
+   "a_patents": [
+    "12748190"
+   ],
+   "b_patents": [
+    "12748194",
+    "12754414"
+   ]
+  },
+  {
+   "label": "signal",
+   "a_patents": [
+    "10000000",
+    "12748190",
+    "12748198"
+   ],
+   "b_patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "signals",
+   "a_patents": [
+    "12748198"
+   ],
+   "b_patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "source",
+   "a_patents": [
+    "10000000"
+   ],
+   "b_patents": [
+    "12748194",
+    "12754414"
+   ]
+  }
+ ],
+ "concepts_unique_to_a": [
+  {
+   "label": "array",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "bus",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "circuit",
+   "patents": [
+    "10000000",
+    "12748198"
+   ]
+  },
+  {
+   "label": "clock",
+   "patents": [
+    "10000000",
+    "12748198"
+   ]
+  },
+  {
+   "label": "clock cycle",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "clock frequency",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "collimator",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "collimator lens",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "correlation",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "corresponding",
+   "patents": [
+    "10000000",
+    "12748190"
+   ]
+  },
+  {
+   "label": "coupled",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "data",
+   "patents": [
+    "10000000",
+    "12748198"
+   ]
+  },
+  {
+   "label": "data bus",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "detection",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "detector",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "detector elements",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "digital",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "digital circuit",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "distance",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "distance measurement",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "distance measurement range",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "electrical",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "electrical signal",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "elements",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "elements for each sample",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "emitter",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "emitters",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "followed",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "fourier",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "fourier transform",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "hardwired",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "hardwired digital",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "hardwired digital circuit",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "imaging",
+   "patents": [
+    "10000000",
+    "12748190"
+   ]
+  },
+  {
+   "label": "imaging lens",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "LADAR",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "laser",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "laser detection and ranging",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "lens",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "lidar system for capturing",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "light emitted",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "light emitter",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "light emitter and reflected",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "light emitters",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "light receiver",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "light receivers",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "light reflected",
+   "patents": [
+    "10000000",
+    "12748190"
+   ]
+  },
+  {
+   "label": "local",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "local light",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "local processing circuitry",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "measurement",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "measurement range",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "mirror",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "modulation",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "multiple",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "optical axis",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "optical path",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "orientation",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "oscillating",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "oscillating local",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "oscillating local light",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "oscillator",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "period",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "period clock",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "period clock cycle",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "phase",
+   "patents": [
+    "10000000",
+    "12748198"
+   ]
+  },
+  {
+   "label": "photosensitive",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "photosensitive region",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "position where light emitted",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "provided",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "quadrature",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "quadrature components",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "range",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "realized",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "received",
+   "patents": [
+    "10000000",
+    "12748190",
+    "12748198"
+   ]
+  },
+  {
+   "label": "received via the rotating",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "receiver",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "receivers",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "reflective surfaces",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "region",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "return",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "return light",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "return light reflected",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "rotating mirror",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "sample",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "sample components",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "sample period",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "sample period clock",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "sample period clock cycle",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "section",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "sequence",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "stage",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "substantially",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "surfaces",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "surroundings",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "target",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "times during each sample",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "toward",
+   "patents": [
+    "12748190"
+   ]
+  },
+  {
+   "label": "transform",
+   "patents": [
+    "12748198"
+   ]
+  },
+  {
+   "label": "two-dimensional",
+   "patents": [
+    "10000000",
+    "12748198"
+   ]
+  },
+  {
+   "label": "two-dimensional array",
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "values",
+   "patents": [
+    "12748198"
+   ]
+  }
+ ],
+ "concepts_unique_to_b": [
+  {
+   "label": "adjust",
+   "patents": [
+    "12748194",
+    "12754414"
+   ]
+  },
+  {
+   "label": "amount",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "angular",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "angular position",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "angular position sensor",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "assembly",
+   "patents": [
+    "12749956",
+    "12754414"
+   ]
+  },
+  {
+   "label": "associated",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "associated with the input",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "balancing",
+   "patents": [
+    "12749956",
+    "12754414"
+   ]
+  },
+  {
+   "label": "balancing element",
+   "patents": [
+    "12749956",
+    "12754414"
+   ]
+  },
+  {
+   "label": "base",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "beam",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "beams",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "coils",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "computer-implemented",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "control",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "controllers",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "cover",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "detection and ranging lidar",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "diameter",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "direct",
+   "patents": [
+    "12748194",
+    "12754414"
+   ]
+  },
+  {
+   "label": "direction",
+   "patents": [
+    "12748194",
+    "12749956"
+   ]
+  },
+  {
+   "label": "direction information",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "direction information associated",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "drive",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "driven",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "element the lidar",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "emit",
+   "patents": [
+    "12748194",
+    "12754414"
+   ]
+  },
+  {
+   "label": "emit light",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "encoder",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "end",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "end cover",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "environment",
+   "patents": [
+    "12748194",
+    "12754414"
+   ]
+  },
+  {
+   "label": "fixed",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "fixed first portion",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "flexure",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "flexure components",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "further",
+   "patents": [
+    "12748194",
+    "12749956",
+    "12754414"
+   ]
+  },
+  {
+   "label": "galvanometer",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "galvanometer motor",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "information",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "information associated",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "information associated with rotation",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "input",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "input associated with driving",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "inside the shell",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "laser light",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "laser light beams",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "light beam",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "light beams",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "light detection",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "light detection and ranging",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "light source",
+   "patents": [
+    "12748194",
+    "12754414"
+   ]
+  },
+  {
+   "label": "magnetic",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "magnetic pole",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "mm",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "mounted",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "mounting",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "mounting sleeve",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "objects",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "optical assembly",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "optical element",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "optical element the lidar",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "outer",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "outside",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "pole",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "portion",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "position sensor",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "positioning",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "power",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "power sources",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "pulsed laser",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "pulsed laser light",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "pulsed laser light beams",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "ranging lidar",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "reflective surface",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "refract the light",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "refract the light beam",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "refractive",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "refractive surface",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "rotatable",
+   "patents": [
+    "12748194",
+    "12754414"
+   ]
+  },
+  {
+   "label": "rotatable second portion",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "rotating shaft",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "rotor",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "rotor assembly",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "scan",
+   "patents": [
+    "12748194",
+    "12754414"
+   ]
+  },
+  {
+   "label": "scan element",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "scanner",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "scanning",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "scanning optical",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "scanning optical assembly",
+   "patents": [
+    "12754414"
+   ]
+  },
+  {
+   "label": "shaft",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "shell",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "signal associated",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "signals output",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "sleeve",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "stator",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "stator assembly",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "stator yoke",
+   "patents": [
+    "12749956"
+   ]
+  },
+  {
+   "label": "surface",
+   "patents": [
+    "12749956",
+    "12754414"
+   ]
+  },
+  {
+   "label": "vehicle",
+   "patents": [
+    "12748194"
+   ]
+  },
+  {
+   "label": "yoke",
+   "patents": [
+    "12749956"
+   ]
+  }
+ ],
+ "cpc_overlap": [
+  {
+   "code": "G01S17/42",
+   "a_patents": [
+    "12748198",
+    "12748190"
+   ],
+   "b_patents": [
+    "12754414"
+   ]
+  },
+  {
+   "code": "G01S17/931",
+   "a_patents": [
+    "12748198"
+   ],
+   "b_patents": [
+    "12754414"
+   ]
+  },
+  {
+   "code": "G01S7/4817",
+   "a_patents": [
+    "12748190"
+   ],
+   "b_patents": [
+    "12754414",
+    "12748194",
+    "12749956"
+   ]
+  }
+ ],
+ "cpc_unique_to_a": [
+  "G01S17/10",
+  "G01S17/32",
+  "G01S17/58",
+  "G01S7/4811",
+  "G01S7/4815",
+  "G01S7/4863",
+  "G01S7/4865",
+  "G01S7/4914",
+  "G01S7/4915",
+  "G01S7/4917",
+  "G01S7/493"
+ ],
+ "cpc_unique_to_b": [
+  "G01D5/225",
+  "G01D5/246",
+  "G01S17/93",
+  "G02B26/0891",
+  "G02B26/101",
+  "G02B26/108",
+  "H02K11/22",
+  "H02K21/22",
+  "H02K21/24",
+  "H02K29/08"
+ ],
+ "redundant_pairs": [
+  {
+   "a_number": "12748190",
+   "a_title": "LiDAR device and control method for LiDAR device",
+   "b_number": "12754414",
+   "b_title": "Optical assembly for scanning lidar system",
+   "shared_concepts": [
+    "axis",
+    "element",
+    "light",
+    "optical",
+    "receive",
+    "reflected",
+    "reflective",
+    "rotation"
+   ],
+   "shared_cpc": [
+    "G01S17/42",
+    "G01S7/4817"
+   ],
+   "score": 22
+  },
+  {
+   "a_number": "10000000",
+   "a_title": "Coherent LADAR using intra-pixel quadrature detection",
+   "b_number": "12748194",
+   "b_title": "Drive control for a scanner of a LIDAR system",
+   "shared_concepts": [
+    "components",
+    "detection and ranging",
+    "element",
+    "frequency",
+    "light",
+    "output",
+    "signal",
+    "source"
+   ],
+   "shared_cpc": [],
+   "score": 16
+  },
+  {
+   "a_number": "12748198",
+   "a_title": "Coherent lidar system for capturing the surroundings with phase modulation and hardwired digital circuit",
+   "b_number": "12748194",
+   "b_title": "Drive control for a scanner of a LIDAR system",
+   "shared_concepts": [
+    "components",
+    "frequency",
+    "lidar",
+    "light",
+    "output",
+    "position",
+    "signal",
+    "signals"
+   ],
+   "shared_cpc": [],
+   "score": 16
+  },
+  {
+   "a_number": "12748190",
+   "a_title": "LiDAR device and control method for LiDAR device",
+   "b_number": "12748194",
+   "b_title": "Drive control for a scanner of a LIDAR system",
+   "shared_concepts": [
+    "element",
+    "lidar",
+    "light",
+    "position",
+    "rotation",
+    "signal"
+   ],
+   "shared_cpc": [
+    "G01S7/4817"
+   ],
+   "score": 15
+  },
+  {
+   "a_number": "12748198",
+   "a_title": "Coherent lidar system for capturing the surroundings with phase modulation and hardwired digital circuit",
+   "b_number": "12754414",
+   "b_title": "Optical assembly for scanning lidar system",
+   "shared_concepts": [
+    "light",
+    "receive",
+    "reflected"
+   ],
+   "shared_cpc": [
+    "G01S17/42",
+    "G01S17/931"
+   ],
+   "score": 12
+  },
+  {
+   "a_number": "12748190",
+   "a_title": "LiDAR device and control method for LiDAR device",
+   "b_number": "12749956",
+   "b_title": "Galvanometer motor and LiDAR",
+   "shared_concepts": [
+    "axis",
+    "element",
+    "position",
+    "rotating"
+   ],
+   "shared_cpc": [
+    "G01S7/4817"
+   ],
+   "score": 11
+  },
+  {
+   "a_number": "10000000",
+   "a_title": "Coherent LADAR using intra-pixel quadrature detection",
+   "b_number": "12754414",
+   "b_title": "Optical assembly for scanning lidar system",
+   "shared_concepts": [
+    "element",
+    "light",
+    "receive",
+    "reflected",
+    "source"
+   ],
+   "shared_cpc": [],
+   "score": 10
+  },
+  {
+   "a_number": "10000000",
+   "a_title": "Coherent LADAR using intra-pixel quadrature detection",
+   "b_number": "12749956",
+   "b_title": "Galvanometer motor and LiDAR",
+   "shared_concepts": [
+    "element"
+   ],
+   "shared_cpc": [],
+   "score": 2
+  },
+  {
+   "a_number": "12748198",
+   "a_title": "Coherent lidar system for capturing the surroundings with phase modulation and hardwired digital circuit",
+   "b_number": "12749956",
+   "b_title": "Galvanometer motor and LiDAR",
+   "shared_concepts": [
+    "position"
+   ],
+   "shared_cpc": [],
+   "score": 2
+  }
+ ],
+ "overlap_concept_count": 18,
+ "unique_a_count": 102,
+ "unique_b_count": 102
+}
