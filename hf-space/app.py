@@ -125,6 +125,47 @@ def search(q: str = Query(..., min_length=2)) -> List[Dict[str, Any]]:
     return hits
 
 
+@app.get("/api/v1/merge/summary", tags=["merge"])
+def merge_summary() -> Dict[str, Any]:
+    """M&A comparison summary (only present on merged portfolios)."""
+    m = DATA.get("merge")
+    if not m:
+        raise HTTPException(status_code=404, detail="not a merged portfolio")
+    return {"a": m["a"], "b": m["b"],
+            "overlap_concept_count": m["overlap_concept_count"],
+            "unique_a_count": m["unique_a_count"],
+            "unique_b_count": m["unique_b_count"],
+            "cpc_overlap": m["cpc_overlap"]}
+
+
+@app.get("/api/v1/merge/concept-overlap", tags=["merge"])
+def merge_concept_overlap() -> List[Dict[str, Any]]:
+    m = DATA.get("merge")
+    if not m:
+        raise HTTPException(status_code=404, detail="not a merged portfolio")
+    return m["concept_overlap"]
+
+
+@app.get("/api/v1/merge/redundant-pairs", tags=["merge"])
+def merge_redundant_pairs(limit: int = Query(10, ge=1, le=25)) -> List[Dict[str, Any]]:
+    m = DATA.get("merge")
+    if not m:
+        raise HTTPException(status_code=404, detail="not a merged portfolio")
+    return m["redundant_pairs"][:limit]
+
+
+@app.get("/api/v1/merge/gaps", tags=["merge"])
+def merge_gaps() -> Dict[str, Any]:
+    """Concepts and CPC classes unique to each side."""
+    m = DATA.get("merge")
+    if not m:
+        raise HTTPException(status_code=404, detail="not a merged portfolio")
+    return {"unique_to_a": m["concepts_unique_to_a"],
+            "unique_to_b": m["concepts_unique_to_b"],
+            "cpc_unique_to_a": m["cpc_unique_to_a"],
+            "cpc_unique_to_b": m["cpc_unique_to_b"]}
+
+
 @app.get("/", response_class=HTMLResponse, include_in_schema=False)
 def index() -> str:
     path = os.path.join(HERE, "index.html")
