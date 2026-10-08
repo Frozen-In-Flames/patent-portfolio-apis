@@ -1,0 +1,3688 @@
+{
+ "concepts": [
+  {
+   "label": "simulation",
+   "score": 0.1816,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "question",
+   "score": 0.1062,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "nucleic",
+   "score": 0.1034,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "nucleic acid",
+   "score": 0.102,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "light",
+   "score": 0.0906,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "acid",
+   "score": 0.0887,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "sample",
+   "score": 0.088,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "detector",
+   "score": 0.0746,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "detector elements",
+   "score": 0.0705,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "elements",
+   "score": 0.0613,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "local",
+   "score": 0.0613,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "information",
+   "score": 0.0548,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "sample period clock cycle",
+   "score": 0.0541,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "sample period clock",
+   "score": 0.0485,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "period clock cycle",
+   "score": 0.0485,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "array",
+   "score": 0.048,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "elected question",
+   "score": 0.0468,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "step",
+   "score": 0.0462,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "sample period",
+   "score": 0.046,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "sequence",
+   "score": 0.0443,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "input information",
+   "score": 0.0433,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "components",
+   "score": 0.0431,
+   "aliases": [],
+   "patents": [
+    "10000000",
+    "8725472"
+   ]
+  },
+  {
+   "label": "period clock",
+   "score": 0.0429,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "clock cycle",
+   "score": 0.0429,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "elected",
+   "score": 0.0428,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "input",
+   "score": 0.0411,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "period",
+   "score": 0.04,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "clock",
+   "score": 0.04,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "criterion",
+   "score": 0.0385,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "primers",
+   "score": 0.0369,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "extension",
+   "score": 0.0369,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "return light",
+   "score": 0.0368,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "depending",
+   "score": 0.0364,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "target",
+   "score": 0.0347,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "simulation criterion",
+   "score": 0.0345,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "associated",
+   "score": 0.0343,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "model",
+   "score": 0.0343,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "two-dimensional array",
+   "score": 0.0337,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "product",
+   "score": 0.0323,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "frequency",
+   "score": 0.032,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "return",
+   "score": 0.032,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "specific",
+   "score": 0.0296,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "two-dimensional",
+   "score": 0.0293,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "nucleic acid sequence",
+   "score": 0.0288,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "local light",
+   "score": 0.0287,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "inputted elected question",
+   "score": 0.0278,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "strands",
+   "score": 0.0277,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "primer",
+   "score": 0.0277,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "dna",
+   "score": 0.0277,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "generating",
+   "score": 0.0274,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "according",
+   "score": 0.027,
+   "aliases": [],
+   "patents": [
+    "10000000",
+    "8725472"
+   ]
+  },
+  {
+   "label": "data",
+   "score": 0.0268,
+   "aliases": [],
+   "patents": [
+    "10000000",
+    "8725472"
+   ]
+  },
+  {
+   "label": "data bus",
+   "score": 0.0268,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "output",
+   "score": 0.0267,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "extension product",
+   "score": 0.0265,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "scenario",
+   "score": 0.0257,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "unit",
+   "score": 0.0257,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "inputted",
+   "score": 0.0257,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "acid sequence",
+   "score": 0.0255,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "coupled",
+   "score": 0.025,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "simulation scenario",
+   "score": 0.0246,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "inputted elected",
+   "score": 0.0246,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "photosensitive region",
+   "score": 0.0245,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "return light reflected",
+   "score": 0.0243,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "oscillator",
+   "score": 0.024,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "platform",
+   "score": 0.024,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "oscillating local light",
+   "score": 0.0238,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "bus",
+   "score": 0.0233,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "complementary",
+   "score": 0.0231,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "amplifying",
+   "score": 0.0222,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "desired",
+   "score": 0.0222,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "mixture",
+   "score": 0.0222,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "signal",
+   "score": 0.0217,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "light reflected",
+   "score": 0.0215,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "quadrature components",
+   "score": 0.0215,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "specific nucleic acid sequence",
+   "score": 0.0214,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "nucleic acid sequence contained",
+   "score": 0.0214,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "quadrature",
+   "score": 0.0213,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "laser",
+   "score": 0.0213,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "photosensitive",
+   "score": 0.0213,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "region",
+   "score": 0.0213,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "step b",
+   "score": 0.0212,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "oscillating local",
+   "score": 0.0211,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "sample components",
+   "score": 0.0211,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "arrangement",
+   "score": 0.0206,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "environmental model",
+   "score": 0.0197,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "elements for each sample",
+   "score": 0.0193,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "specific nucleic acid",
+   "score": 0.0192,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "acid sequence contained",
+   "score": 0.0192,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "reflected",
+   "score": 0.0187,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "steps",
+   "score": 0.0185,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "synthesized",
+   "score": 0.0185,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "enzyme",
+   "score": 0.0185,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "further",
+   "score": 0.0184,
+   "aliases": [],
+   "patents": [
+    "10000000",
+    "8725472"
+   ]
+  },
+  {
+   "label": "receive",
+   "score": 0.0183,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "oscillating",
+   "score": 0.0183,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "simulation device on-board",
+   "score": 0.0178,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "on-board",
+   "score": 0.0171,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "environmental",
+   "score": 0.0171,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "entities",
+   "score": 0.0171,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "specific nucleic",
+   "score": 0.017,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "sequence contained",
+   "score": 0.017,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "different",
+   "score": 0.0169,
+   "aliases": [],
+   "patents": [
+    "4683202",
+    "8725472"
+   ]
+  },
+  {
+   "label": "primer extension",
+   "score": 0.0159,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "extension products",
+   "score": 0.0159,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "dna polymerase",
+   "score": 0.0159,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "depending upon said simulation",
+   "score": 0.0155,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "laser detection and ranging",
+   "score": 0.0155,
+   "aliases": [
+    "LADAR"
+   ],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "LADAR",
+   "score": 0.0155,
+   "aliases": [
+    "laser detection and ranging"
+   ],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "times during each sample",
+   "score": 0.0155,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "source",
+   "score": 0.015,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "generating input information associated",
+   "score": 0.0149,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "sensor data",
+   "score": 0.0148,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "default model",
+   "score": 0.0148,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "simulation scenario regarding",
+   "score": 0.0139,
+   "aliases": [],
+   "patents": [
+    "8725472"
+   ]
+  },
+  {
+   "label": "detection and ranging",
+   "score": 0.0139,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "local processing circuitry",
+   "score": 0.0139,
+   "aliases": [],
+   "patents": [
+    "10000000"
+   ]
+  },
+  {
+   "label": "treating",
+   "score": 0.0139,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "products",
+   "score": 0.0139,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  },
+  {
+   "label": "template",
+   "score": 0.0139,
+   "aliases": [],
+   "patents": [
+    "4683202"
+   ]
+  }
+ ],
+ "cpc_taxonomy": {
+  "sections": {
+   "G": {
+    "title": "Physics",
+    "patents": [
+     "10000000",
+     "8725472"
+    ],
+    "classes": {
+     "G01": {
+      "patents": [
+       "10000000"
+      ],
+      "subclasses": {
+       "G01S": {
+        "code": "G01S",
+        "patents": [
+         "10000000"
+        ],
+        "groups": {
+         "7/4865": [
+          "10000000"
+         ],
+         "7/4917": [
+          "10000000"
+         ],
+         "7/4914": [
+          "10000000"
+         ],
+         "7/4863": [
+          "10000000"
+         ],
+         "17/894": [
+          "10000000"
+         ]
+        }
+       }
+      }
+     },
+     "G05": {
+      "patents": [
+       "8725472"
+      ],
+      "subclasses": {
+       "G05B": {
+        "code": "G05B",
+        "patents": [
+         "8725472"
+        ],
+        "groups": {
+         "17/02": [
+          "8725472"
+         ]
+        }
+       }
+      }
+     }
+    }
+   },
+   "C": {
+    "title": "Chemistry; Metallurgy",
+    "patents": [
+     "4683202"
+    ],
+    "classes": {
+     "C12": {
+      "patents": [
+       "4683202"
+      ],
+      "subclasses": {
+       "C12Q": {
+        "code": "C12Q",
+        "patents": [
+         "4683202"
+        ],
+        "groups": {
+         "1/686": [
+          "4683202"
+         ],
+         "1/6853": [
+          "4683202"
+         ],
+         "1/6827": [
+          "4683202"
+         ],
+         "1/6858": [
+          "4683202"
+         ],
+         "2525/131": [
+          "4683202"
+         ],
+         "2521/513": [
+          "4683202"
+         ],
+         "2549/119": [
+          "4683202"
+         ],
+         "2537/143": [
+          "4683202"
+         ],
+         "1/6886": [
+          "4683202"
+         ],
+         "1/689": [
+          "4683202"
+         ],
+         "1/6883": [
+          "4683202"
+         ]
+        }
+       },
+       "C12N": {
+        "code": "C12N",
+        "patents": [
+         "4683202"
+        ],
+        "groups": {
+         "15/10": [
+          "4683202"
+         ]
+        }
+       }
+      }
+     },
+     "C07": {
+      "patents": [
+       "4683202"
+      ],
+      "subclasses": {
+       "C07K": {
+        "code": "C07K",
+        "patents": [
+         "4683202"
+        ],
+        "groups": {
+         "14/805": [
+          "4683202"
+         ]
+        }
+       }
+      }
+     },
+     "C40": {
+      "patents": [
+       "4683202"
+      ],
+      "subclasses": {
+       "C40B": {
+        "code": "C40B",
+        "patents": [
+         "4683202"
+        ],
+        "groups": {
+         "40/06": [
+          "4683202"
+         ],
+         "60/14": [
+          "4683202"
+         ]
+        }
+       }
+      }
+     }
+    }
+   },
+   "B": {
+    "title": "Performing Operations; Transporting",
+    "patents": [
+     "4683202"
+    ],
+    "classes": {
+     "B01": {
+      "patents": [
+       "4683202"
+      ],
+      "subclasses": {
+       "B01L": {
+        "code": "B01L",
+        "patents": [
+         "4683202"
+        ],
+        "groups": {
+         "7/52": [
+          "4683202"
+         ]
+        }
+       },
+       "B01J": {
+        "code": "B01J",
+        "patents": [
+         "4683202"
+        ],
+        "groups": {
+         "2219/00495": [
+          "4683202"
+         ],
+         "2219/0059": [
+          "4683202"
+         ],
+         "2219/00722": [
+          "4683202"
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "graph": {
+  "nodes": [
+   {
+    "id": "patent:10000000",
+    "type": "patent",
+    "label": "US 10000000",
+    "title": "Coherent LADAR using intra-pixel quadrature detection"
+   },
+   {
+    "id": "cpc:G01S7/4865",
+    "type": "cpc",
+    "label": "G01S7/4865"
+   },
+   {
+    "id": "cpc:G01S7/4917",
+    "type": "cpc",
+    "label": "G01S7/4917"
+   },
+   {
+    "id": "cpc:G01S7/4914",
+    "type": "cpc",
+    "label": "G01S7/4914"
+   },
+   {
+    "id": "cpc:G01S7/4863",
+    "type": "cpc",
+    "label": "G01S7/4863"
+   },
+   {
+    "id": "patent:5093563",
+    "type": "patent",
+    "label": "US 5093563",
+    "title": "Small 19920300",
+    "external": true
+   },
+   {
+    "id": "patent:5751830",
+    "type": "patent",
+    "label": "US 5751830",
+    "title": "Hutchinson 19980500",
+    "external": true
+   },
+   {
+    "id": "patent:20030076485",
+    "type": "patent",
+    "label": "US 20030076485",
+    "title": "Ruff et al. 20030400",
+    "external": true
+   },
+   {
+    "id": "patent:20060227317",
+    "type": "patent",
+    "label": "US 20060227317",
+    "title": "Henderson 20061000",
+    "external": true
+   },
+   {
+    "id": "patent:4683202",
+    "type": "patent",
+    "label": "US 4683202",
+    "title": "Process for amplifying nucleic acid sequences"
+   },
+   {
+    "id": "cpc:C12Q1/686",
+    "type": "cpc",
+    "label": "C12Q1/686"
+   },
+   {
+    "id": "cpc:C12Q1/6853",
+    "type": "cpc",
+    "label": "C12Q1/6853"
+   },
+   {
+    "id": "cpc:C12Q1/6827",
+    "type": "cpc",
+    "label": "C12Q1/6827"
+   },
+   {
+    "id": "cpc:C07K14/805",
+    "type": "cpc",
+    "label": "C07K14/805"
+   },
+   {
+    "id": "cpc:C12N15/10",
+    "type": "cpc",
+    "label": "C12N15/10"
+   },
+   {
+    "id": "cpc:C12Q1/6858",
+    "type": "cpc",
+    "label": "C12Q1/6858"
+   },
+   {
+    "id": "cpc:B01L7/52",
+    "type": "cpc",
+    "label": "B01L7/52"
+   },
+   {
+    "id": "cpc:C12Q2525/131",
+    "type": "cpc",
+    "label": "C12Q2525/131"
+   },
+   {
+    "id": "cpc:C12Q2521/513",
+    "type": "cpc",
+    "label": "C12Q2521/513"
+   },
+   {
+    "id": "cpc:C12Q2549/119",
+    "type": "cpc",
+    "label": "C12Q2549/119"
+   },
+   {
+    "id": "cpc:C12Q2537/143",
+    "type": "cpc",
+    "label": "C12Q2537/143"
+   },
+   {
+    "id": "patent:8725472",
+    "type": "patent",
+    "label": "US 8725472",
+    "title": "Arrangement and method for generating information"
+   },
+   {
+    "id": "cpc:G05B17/02",
+    "type": "cpc",
+    "label": "G05B17/02"
+   },
+   {
+    "id": "patent:5428530",
+    "type": "patent",
+    "label": "US 5428530",
+    "title": "19950600 Brown et al. 703/8",
+    "external": true
+   },
+   {
+    "id": "patent:5549477",
+    "type": "patent",
+    "label": "US 5549477",
+    "title": "19960800 Tran et al. 434/5",
+    "external": true
+   },
+   {
+    "id": "patent:6283757",
+    "type": "patent",
+    "label": "US 6283757",
+    "title": "20010900 Meghnot et al. 434/33",
+    "external": true
+   },
+   {
+    "id": "patent:7194353",
+    "type": "patent",
+    "label": "US 7194353",
+    "title": "20070300 Baldwin et al. 701/528",
+    "external": true
+   },
+   {
+    "id": "patent:20030215771",
+    "type": "patent",
+    "label": "US 20030215771",
+    "title": "20031100 Bartoldus et al.",
+    "external": true
+   },
+   {
+    "id": "concept:simulation",
+    "type": "concept",
+    "label": "simulation",
+    "aliases": [],
+    "score": 0.1816
+   },
+   {
+    "id": "concept:question",
+    "type": "concept",
+    "label": "question",
+    "aliases": [],
+    "score": 0.1062
+   },
+   {
+    "id": "concept:nucleic",
+    "type": "concept",
+    "label": "nucleic",
+    "aliases": [],
+    "score": 0.1034
+   },
+   {
+    "id": "concept:nucleic-acid",
+    "type": "concept",
+    "label": "nucleic acid",
+    "aliases": [],
+    "score": 0.102
+   },
+   {
+    "id": "concept:light",
+    "type": "concept",
+    "label": "light",
+    "aliases": [],
+    "score": 0.0906
+   },
+   {
+    "id": "concept:acid",
+    "type": "concept",
+    "label": "acid",
+    "aliases": [],
+    "score": 0.0887
+   },
+   {
+    "id": "concept:sample",
+    "type": "concept",
+    "label": "sample",
+    "aliases": [],
+    "score": 0.088
+   },
+   {
+    "id": "concept:detector",
+    "type": "concept",
+    "label": "detector",
+    "aliases": [],
+    "score": 0.0746
+   },
+   {
+    "id": "concept:detector-elements",
+    "type": "concept",
+    "label": "detector elements",
+    "aliases": [],
+    "score": 0.0705
+   },
+   {
+    "id": "concept:elements",
+    "type": "concept",
+    "label": "elements",
+    "aliases": [],
+    "score": 0.0613
+   },
+   {
+    "id": "concept:local",
+    "type": "concept",
+    "label": "local",
+    "aliases": [],
+    "score": 0.0613
+   },
+   {
+    "id": "concept:information",
+    "type": "concept",
+    "label": "information",
+    "aliases": [],
+    "score": 0.0548
+   },
+   {
+    "id": "concept:sample-period-clock-cycle",
+    "type": "concept",
+    "label": "sample period clock cycle",
+    "aliases": [],
+    "score": 0.0541
+   },
+   {
+    "id": "concept:sample-period-clock",
+    "type": "concept",
+    "label": "sample period clock",
+    "aliases": [],
+    "score": 0.0485
+   },
+   {
+    "id": "concept:period-clock-cycle",
+    "type": "concept",
+    "label": "period clock cycle",
+    "aliases": [],
+    "score": 0.0485
+   },
+   {
+    "id": "concept:array",
+    "type": "concept",
+    "label": "array",
+    "aliases": [],
+    "score": 0.048
+   },
+   {
+    "id": "concept:elected-question",
+    "type": "concept",
+    "label": "elected question",
+    "aliases": [],
+    "score": 0.0468
+   },
+   {
+    "id": "concept:step",
+    "type": "concept",
+    "label": "step",
+    "aliases": [],
+    "score": 0.0462
+   },
+   {
+    "id": "concept:sample-period",
+    "type": "concept",
+    "label": "sample period",
+    "aliases": [],
+    "score": 0.046
+   },
+   {
+    "id": "concept:sequence",
+    "type": "concept",
+    "label": "sequence",
+    "aliases": [],
+    "score": 0.0443
+   },
+   {
+    "id": "concept:input-information",
+    "type": "concept",
+    "label": "input information",
+    "aliases": [],
+    "score": 0.0433
+   },
+   {
+    "id": "concept:components",
+    "type": "concept",
+    "label": "components",
+    "aliases": [],
+    "score": 0.0431
+   },
+   {
+    "id": "concept:period-clock",
+    "type": "concept",
+    "label": "period clock",
+    "aliases": [],
+    "score": 0.0429
+   },
+   {
+    "id": "concept:clock-cycle",
+    "type": "concept",
+    "label": "clock cycle",
+    "aliases": [],
+    "score": 0.0429
+   },
+   {
+    "id": "concept:elected",
+    "type": "concept",
+    "label": "elected",
+    "aliases": [],
+    "score": 0.0428
+   },
+   {
+    "id": "concept:input",
+    "type": "concept",
+    "label": "input",
+    "aliases": [],
+    "score": 0.0411
+   },
+   {
+    "id": "concept:period",
+    "type": "concept",
+    "label": "period",
+    "aliases": [],
+    "score": 0.04
+   },
+   {
+    "id": "concept:clock",
+    "type": "concept",
+    "label": "clock",
+    "aliases": [],
+    "score": 0.04
+   },
+   {
+    "id": "concept:criterion",
+    "type": "concept",
+    "label": "criterion",
+    "aliases": [],
+    "score": 0.0385
+   },
+   {
+    "id": "concept:primers",
+    "type": "concept",
+    "label": "primers",
+    "aliases": [],
+    "score": 0.0369
+   },
+   {
+    "id": "concept:extension",
+    "type": "concept",
+    "label": "extension",
+    "aliases": [],
+    "score": 0.0369
+   },
+   {
+    "id": "concept:return-light",
+    "type": "concept",
+    "label": "return light",
+    "aliases": [],
+    "score": 0.0368
+   },
+   {
+    "id": "concept:depending",
+    "type": "concept",
+    "label": "depending",
+    "aliases": [],
+    "score": 0.0364
+   },
+   {
+    "id": "concept:target",
+    "type": "concept",
+    "label": "target",
+    "aliases": [],
+    "score": 0.0347
+   },
+   {
+    "id": "concept:simulation-criterion",
+    "type": "concept",
+    "label": "simulation criterion",
+    "aliases": [],
+    "score": 0.0345
+   },
+   {
+    "id": "concept:associated",
+    "type": "concept",
+    "label": "associated",
+    "aliases": [],
+    "score": 0.0343
+   },
+   {
+    "id": "concept:model",
+    "type": "concept",
+    "label": "model",
+    "aliases": [],
+    "score": 0.0343
+   },
+   {
+    "id": "concept:two-dimensional-array",
+    "type": "concept",
+    "label": "two-dimensional array",
+    "aliases": [],
+    "score": 0.0337
+   },
+   {
+    "id": "concept:product",
+    "type": "concept",
+    "label": "product",
+    "aliases": [],
+    "score": 0.0323
+   },
+   {
+    "id": "concept:frequency",
+    "type": "concept",
+    "label": "frequency",
+    "aliases": [],
+    "score": 0.032
+   },
+   {
+    "id": "concept:return",
+    "type": "concept",
+    "label": "return",
+    "aliases": [],
+    "score": 0.032
+   },
+   {
+    "id": "concept:specific",
+    "type": "concept",
+    "label": "specific",
+    "aliases": [],
+    "score": 0.0296
+   },
+   {
+    "id": "concept:two-dimensional",
+    "type": "concept",
+    "label": "two-dimensional",
+    "aliases": [],
+    "score": 0.0293
+   },
+   {
+    "id": "concept:nucleic-acid-sequence",
+    "type": "concept",
+    "label": "nucleic acid sequence",
+    "aliases": [],
+    "score": 0.0288
+   },
+   {
+    "id": "concept:local-light",
+    "type": "concept",
+    "label": "local light",
+    "aliases": [],
+    "score": 0.0287
+   },
+   {
+    "id": "concept:inputted-elected-question",
+    "type": "concept",
+    "label": "inputted elected question",
+    "aliases": [],
+    "score": 0.0278
+   },
+   {
+    "id": "concept:strands",
+    "type": "concept",
+    "label": "strands",
+    "aliases": [],
+    "score": 0.0277
+   },
+   {
+    "id": "concept:primer",
+    "type": "concept",
+    "label": "primer",
+    "aliases": [],
+    "score": 0.0277
+   },
+   {
+    "id": "concept:dna",
+    "type": "concept",
+    "label": "dna",
+    "aliases": [],
+    "score": 0.0277
+   },
+   {
+    "id": "concept:generating",
+    "type": "concept",
+    "label": "generating",
+    "aliases": [],
+    "score": 0.0274
+   },
+   {
+    "id": "concept:according",
+    "type": "concept",
+    "label": "according",
+    "aliases": [],
+    "score": 0.027
+   },
+   {
+    "id": "concept:data",
+    "type": "concept",
+    "label": "data",
+    "aliases": [],
+    "score": 0.0268
+   },
+   {
+    "id": "concept:data-bus",
+    "type": "concept",
+    "label": "data bus",
+    "aliases": [],
+    "score": 0.0268
+   },
+   {
+    "id": "concept:output",
+    "type": "concept",
+    "label": "output",
+    "aliases": [],
+    "score": 0.0267
+   },
+   {
+    "id": "concept:extension-product",
+    "type": "concept",
+    "label": "extension product",
+    "aliases": [],
+    "score": 0.0265
+   },
+   {
+    "id": "concept:scenario",
+    "type": "concept",
+    "label": "scenario",
+    "aliases": [],
+    "score": 0.0257
+   },
+   {
+    "id": "concept:unit",
+    "type": "concept",
+    "label": "unit",
+    "aliases": [],
+    "score": 0.0257
+   },
+   {
+    "id": "concept:inputted",
+    "type": "concept",
+    "label": "inputted",
+    "aliases": [],
+    "score": 0.0257
+   },
+   {
+    "id": "concept:acid-sequence",
+    "type": "concept",
+    "label": "acid sequence",
+    "aliases": [],
+    "score": 0.0255
+   },
+   {
+    "id": "concept:coupled",
+    "type": "concept",
+    "label": "coupled",
+    "aliases": [],
+    "score": 0.025
+   },
+   {
+    "id": "concept:simulation-scenario",
+    "type": "concept",
+    "label": "simulation scenario",
+    "aliases": [],
+    "score": 0.0246
+   },
+   {
+    "id": "concept:inputted-elected",
+    "type": "concept",
+    "label": "inputted elected",
+    "aliases": [],
+    "score": 0.0246
+   },
+   {
+    "id": "concept:photosensitive-region",
+    "type": "concept",
+    "label": "photosensitive region",
+    "aliases": [],
+    "score": 0.0245
+   },
+   {
+    "id": "concept:return-light-reflected",
+    "type": "concept",
+    "label": "return light reflected",
+    "aliases": [],
+    "score": 0.0243
+   },
+   {
+    "id": "concept:oscillator",
+    "type": "concept",
+    "label": "oscillator",
+    "aliases": [],
+    "score": 0.024
+   },
+   {
+    "id": "concept:platform",
+    "type": "concept",
+    "label": "platform",
+    "aliases": [],
+    "score": 0.024
+   },
+   {
+    "id": "concept:oscillating-local-light",
+    "type": "concept",
+    "label": "oscillating local light",
+    "aliases": [],
+    "score": 0.0238
+   },
+   {
+    "id": "concept:bus",
+    "type": "concept",
+    "label": "bus",
+    "aliases": [],
+    "score": 0.0233
+   },
+   {
+    "id": "concept:complementary",
+    "type": "concept",
+    "label": "complementary",
+    "aliases": [],
+    "score": 0.0231
+   },
+   {
+    "id": "concept:amplifying",
+    "type": "concept",
+    "label": "amplifying",
+    "aliases": [],
+    "score": 0.0222
+   },
+   {
+    "id": "concept:desired",
+    "type": "concept",
+    "label": "desired",
+    "aliases": [],
+    "score": 0.0222
+   },
+   {
+    "id": "concept:mixture",
+    "type": "concept",
+    "label": "mixture",
+    "aliases": [],
+    "score": 0.0222
+   },
+   {
+    "id": "concept:signal",
+    "type": "concept",
+    "label": "signal",
+    "aliases": [],
+    "score": 0.0217
+   },
+   {
+    "id": "concept:light-reflected",
+    "type": "concept",
+    "label": "light reflected",
+    "aliases": [],
+    "score": 0.0215
+   },
+   {
+    "id": "concept:quadrature-components",
+    "type": "concept",
+    "label": "quadrature components",
+    "aliases": [],
+    "score": 0.0215
+   },
+   {
+    "id": "concept:specific-nucleic-acid-sequence",
+    "type": "concept",
+    "label": "specific nucleic acid sequence",
+    "aliases": [],
+    "score": 0.0214
+   },
+   {
+    "id": "concept:nucleic-acid-sequence-contained",
+    "type": "concept",
+    "label": "nucleic acid sequence contained",
+    "aliases": [],
+    "score": 0.0214
+   },
+   {
+    "id": "concept:quadrature",
+    "type": "concept",
+    "label": "quadrature",
+    "aliases": [],
+    "score": 0.0213
+   },
+   {
+    "id": "concept:laser",
+    "type": "concept",
+    "label": "laser",
+    "aliases": [],
+    "score": 0.0213
+   },
+   {
+    "id": "concept:photosensitive",
+    "type": "concept",
+    "label": "photosensitive",
+    "aliases": [],
+    "score": 0.0213
+   },
+   {
+    "id": "concept:region",
+    "type": "concept",
+    "label": "region",
+    "aliases": [],
+    "score": 0.0213
+   },
+   {
+    "id": "concept:step-b",
+    "type": "concept",
+    "label": "step b",
+    "aliases": [],
+    "score": 0.0212
+   },
+   {
+    "id": "concept:oscillating-local",
+    "type": "concept",
+    "label": "oscillating local",
+    "aliases": [],
+    "score": 0.0211
+   },
+   {
+    "id": "concept:sample-components",
+    "type": "concept",
+    "label": "sample components",
+    "aliases": [],
+    "score": 0.0211
+   },
+   {
+    "id": "concept:arrangement",
+    "type": "concept",
+    "label": "arrangement",
+    "aliases": [],
+    "score": 0.0206
+   },
+   {
+    "id": "concept:environmental-model",
+    "type": "concept",
+    "label": "environmental model",
+    "aliases": [],
+    "score": 0.0197
+   },
+   {
+    "id": "concept:elements-for-each-sample",
+    "type": "concept",
+    "label": "elements for each sample",
+    "aliases": [],
+    "score": 0.0193
+   },
+   {
+    "id": "concept:specific-nucleic-acid",
+    "type": "concept",
+    "label": "specific nucleic acid",
+    "aliases": [],
+    "score": 0.0192
+   },
+   {
+    "id": "concept:acid-sequence-contained",
+    "type": "concept",
+    "label": "acid sequence contained",
+    "aliases": [],
+    "score": 0.0192
+   },
+   {
+    "id": "concept:reflected",
+    "type": "concept",
+    "label": "reflected",
+    "aliases": [],
+    "score": 0.0187
+   },
+   {
+    "id": "concept:steps",
+    "type": "concept",
+    "label": "steps",
+    "aliases": [],
+    "score": 0.0185
+   },
+   {
+    "id": "concept:synthesized",
+    "type": "concept",
+    "label": "synthesized",
+    "aliases": [],
+    "score": 0.0185
+   },
+   {
+    "id": "concept:enzyme",
+    "type": "concept",
+    "label": "enzyme",
+    "aliases": [],
+    "score": 0.0185
+   },
+   {
+    "id": "concept:further",
+    "type": "concept",
+    "label": "further",
+    "aliases": [],
+    "score": 0.0184
+   },
+   {
+    "id": "concept:receive",
+    "type": "concept",
+    "label": "receive",
+    "aliases": [],
+    "score": 0.0183
+   },
+   {
+    "id": "concept:oscillating",
+    "type": "concept",
+    "label": "oscillating",
+    "aliases": [],
+    "score": 0.0183
+   },
+   {
+    "id": "concept:simulation-device-on-board",
+    "type": "concept",
+    "label": "simulation device on-board",
+    "aliases": [],
+    "score": 0.0178
+   },
+   {
+    "id": "concept:on-board",
+    "type": "concept",
+    "label": "on-board",
+    "aliases": [],
+    "score": 0.0171
+   },
+   {
+    "id": "concept:environmental",
+    "type": "concept",
+    "label": "environmental",
+    "aliases": [],
+    "score": 0.0171
+   },
+   {
+    "id": "concept:entities",
+    "type": "concept",
+    "label": "entities",
+    "aliases": [],
+    "score": 0.0171
+   },
+   {
+    "id": "concept:specific-nucleic",
+    "type": "concept",
+    "label": "specific nucleic",
+    "aliases": [],
+    "score": 0.017
+   },
+   {
+    "id": "concept:sequence-contained",
+    "type": "concept",
+    "label": "sequence contained",
+    "aliases": [],
+    "score": 0.017
+   },
+   {
+    "id": "concept:different",
+    "type": "concept",
+    "label": "different",
+    "aliases": [],
+    "score": 0.0169
+   },
+   {
+    "id": "concept:primer-extension",
+    "type": "concept",
+    "label": "primer extension",
+    "aliases": [],
+    "score": 0.0159
+   },
+   {
+    "id": "concept:extension-products",
+    "type": "concept",
+    "label": "extension products",
+    "aliases": [],
+    "score": 0.0159
+   },
+   {
+    "id": "concept:dna-polymerase",
+    "type": "concept",
+    "label": "dna polymerase",
+    "aliases": [],
+    "score": 0.0159
+   },
+   {
+    "id": "concept:depending-upon-said-simulation",
+    "type": "concept",
+    "label": "depending upon said simulation",
+    "aliases": [],
+    "score": 0.0155
+   },
+   {
+    "id": "concept:laser-detection-and-ranging",
+    "type": "concept",
+    "label": "laser detection and ranging",
+    "aliases": [
+     "LADAR"
+    ],
+    "score": 0.0155
+   },
+   {
+    "id": "concept:ladar",
+    "type": "concept",
+    "label": "LADAR",
+    "aliases": [
+     "laser detection and ranging"
+    ],
+    "score": 0.0155
+   },
+   {
+    "id": "concept:times-during-each-sample",
+    "type": "concept",
+    "label": "times during each sample",
+    "aliases": [],
+    "score": 0.0155
+   },
+   {
+    "id": "concept:source",
+    "type": "concept",
+    "label": "source",
+    "aliases": [],
+    "score": 0.015
+   },
+   {
+    "id": "concept:generating-input-information-associated",
+    "type": "concept",
+    "label": "generating input information associated",
+    "aliases": [],
+    "score": 0.0149
+   },
+   {
+    "id": "concept:sensor-data",
+    "type": "concept",
+    "label": "sensor data",
+    "aliases": [],
+    "score": 0.0148
+   },
+   {
+    "id": "concept:default-model",
+    "type": "concept",
+    "label": "default model",
+    "aliases": [],
+    "score": 0.0148
+   },
+   {
+    "id": "concept:simulation-scenario-regarding",
+    "type": "concept",
+    "label": "simulation scenario regarding",
+    "aliases": [],
+    "score": 0.0139
+   },
+   {
+    "id": "concept:detection-and-ranging",
+    "type": "concept",
+    "label": "detection and ranging",
+    "aliases": [],
+    "score": 0.0139
+   },
+   {
+    "id": "concept:local-processing-circuitry",
+    "type": "concept",
+    "label": "local processing circuitry",
+    "aliases": [],
+    "score": 0.0139
+   },
+   {
+    "id": "concept:treating",
+    "type": "concept",
+    "label": "treating",
+    "aliases": [],
+    "score": 0.0139
+   },
+   {
+    "id": "concept:products",
+    "type": "concept",
+    "label": "products",
+    "aliases": [],
+    "score": 0.0139
+   },
+   {
+    "id": "concept:template",
+    "type": "concept",
+    "label": "template",
+    "aliases": [],
+    "score": 0.0139
+   }
+  ],
+  "edges": [
+   {
+    "from": "patent:10000000",
+    "to": "cpc:G01S7/4865",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "cpc:G01S7/4917",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "cpc:G01S7/4914",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "cpc:G01S7/4863",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "patent:5093563",
+    "rel": "cites"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "patent:5751830",
+    "rel": "cites"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "patent:20030076485",
+    "rel": "cites"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "patent:20060227317",
+    "rel": "cites"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "cpc:C12Q1/686",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "cpc:C12Q1/6853",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "cpc:C12Q1/6827",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "cpc:C07K14/805",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "cpc:C12N15/10",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "cpc:C12Q1/6858",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "cpc:B01L7/52",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "cpc:C12Q2525/131",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "cpc:C12Q2521/513",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "cpc:C12Q2549/119",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "cpc:C12Q2537/143",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "cpc:G05B17/02",
+    "rel": "classified_as"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "patent:5428530",
+    "rel": "cites"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "patent:5549477",
+    "rel": "cites"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "patent:6283757",
+    "rel": "cites"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "patent:7194353",
+    "rel": "cites"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "patent:20030215771",
+    "rel": "cites"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:simulation",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:question",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:nucleic",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:nucleic-acid",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:light",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:acid",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:sample",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:detector",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:detector-elements",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:elements",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:local",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:information",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:sample-period-clock-cycle",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:sample-period-clock",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:period-clock-cycle",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:array",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:elected-question",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:step",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:sample-period",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:sequence",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:input-information",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:components",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:components",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:period-clock",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:clock-cycle",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:elected",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:input",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:period",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:clock",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:criterion",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:primers",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:extension",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:return-light",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:depending",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:target",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:simulation-criterion",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:associated",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:model",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:two-dimensional-array",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:product",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:frequency",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:return",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:specific",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:two-dimensional",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:nucleic-acid-sequence",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:local-light",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:inputted-elected-question",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:strands",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:primer",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:dna",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:generating",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:according",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:according",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:data",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:data",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:data-bus",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:output",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:extension-product",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:scenario",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:unit",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:inputted",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:acid-sequence",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:coupled",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:simulation-scenario",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:inputted-elected",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:photosensitive-region",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:return-light-reflected",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:oscillator",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:platform",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:oscillating-local-light",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:bus",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:complementary",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:amplifying",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:desired",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:mixture",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:signal",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:light-reflected",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:quadrature-components",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:specific-nucleic-acid-sequence",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:nucleic-acid-sequence-contained",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:quadrature",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:laser",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:photosensitive",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:region",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:step-b",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:oscillating-local",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:sample-components",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:arrangement",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:environmental-model",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:elements-for-each-sample",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:specific-nucleic-acid",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:acid-sequence-contained",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:reflected",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:steps",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:synthesized",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:enzyme",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:further",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:further",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:receive",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:oscillating",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:simulation-device-on-board",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:on-board",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:environmental",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:entities",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:specific-nucleic",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:sequence-contained",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:different",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:different",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:primer-extension",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:extension-products",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:dna-polymerase",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:depending-upon-said-simulation",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:laser-detection-and-ranging",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:ladar",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:times-during-each-sample",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:source",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:generating-input-information-associated",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:sensor-data",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:default-model",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:8725472",
+    "to": "concept:simulation-scenario-regarding",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:detection-and-ranging",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:10000000",
+    "to": "concept:local-processing-circuitry",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:treating",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:products",
+    "rel": "mentions"
+   },
+   {
+    "from": "patent:4683202",
+    "to": "concept:template",
+    "rel": "mentions"
+   },
+   {
+    "from": "concept:according",
+    "to": "concept:components",
+    "rel": "co_occurs",
+    "weight": 2
+   },
+   {
+    "from": "concept:components",
+    "to": "concept:data",
+    "rel": "co_occurs",
+    "weight": 2
+   },
+   {
+    "from": "concept:components",
+    "to": "concept:further",
+    "rel": "co_occurs",
+    "weight": 2
+   },
+   {
+    "from": "concept:according",
+    "to": "concept:data",
+    "rel": "co_occurs",
+    "weight": 2
+   },
+   {
+    "from": "concept:according",
+    "to": "concept:further",
+    "rel": "co_occurs",
+    "weight": 2
+   },
+   {
+    "from": "concept:data",
+    "to": "concept:further",
+    "rel": "co_occurs",
+    "weight": 2
+   },
+   {
+    "from": "concept:question",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:information",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:elected-question",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:input-information",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:components",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:elected",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:input",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:criterion",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:depending",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:simulation",
+    "to": "concept:simulation-criterion",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:associated",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:model",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:inputted-elected-question",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:generating",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:according",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:data",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:scenario",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:simulation",
+    "to": "concept:unit",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:inputted",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:simulation",
+    "to": "concept:simulation-scenario",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:inputted-elected",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:platform",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:arrangement",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:environmental-model",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:further",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:simulation",
+    "to": "concept:simulation-device-on-board",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:on-board",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:environmental",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:entities",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:different",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:depending-upon-said-simulation",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:generating-input-information-associated",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:sensor-data",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:default-model",
+    "to": "concept:simulation",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:simulation",
+    "to": "concept:simulation-scenario-regarding",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:information",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:elected-question",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:input-information",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:components",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:elected",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:input",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:criterion",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:depending",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:question",
+    "to": "concept:simulation-criterion",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:associated",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:model",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:inputted-elected-question",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:generating",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:according",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:data",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:question",
+    "to": "concept:scenario",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:question",
+    "to": "concept:unit",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:inputted",
+    "to": "concept:question",
+    "rel": "co_occurs",
+    "weight": 1
+   },
+   {
+    "from": "concept:question",
+    "to": "concept:simulation-scenario",
+    "rel": "co_occurs",
+    "weight": 1
+   }
+  ]
+ },
+ "summary": {
+  "portfolio_size": 3,
+  "grant_year_range": [
+   "1987",
+   "2018"
+  ],
+  "top_assignees": [
+   [
+    "Raytheon Company",
+    1
+   ],
+   [
+    "Cetus Corporation",
+    1
+   ],
+   [
+    "SAAB AB",
+    1
+   ]
+  ],
+  "top_inventors": [
+   [
+    "Joseph Marron",
+    1
+   ],
+   [
+    "Kary B. Mullis",
+    1
+   ],
+   [
+    "Hans-Ove Hagelin",
+    1
+   ],
+   [
+    "Johan Ehlin",
+    1
+   ]
+  ],
+  "cpc_sections": [
+   {
+    "section": "G",
+    "title": "Physics",
+    "patents": [
+     "10000000",
+     "8725472"
+    ],
+    "patent_count": 2
+   },
+   {
+    "section": "C",
+    "title": "Chemistry; Metallurgy",
+    "patents": [
+     "4683202"
+    ],
+    "patent_count": 1
+   },
+   {
+    "section": "B",
+    "title": "Performing Operations; Transporting",
+    "patents": [
+     "4683202"
+    ],
+    "patent_count": 1
+   }
+  ],
+  "top_concepts": [
+   {
+    "label": "simulation",
+    "score": 0.1816,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "8725472"
+    ]
+   },
+   {
+    "label": "question",
+    "score": 0.1062,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "8725472"
+    ]
+   },
+   {
+    "label": "nucleic",
+    "score": 0.1034,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "4683202"
+    ]
+   },
+   {
+    "label": "nucleic acid",
+    "score": 0.102,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "4683202"
+    ]
+   },
+   {
+    "label": "light",
+    "score": 0.0906,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "acid",
+    "score": 0.0887,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "4683202"
+    ]
+   },
+   {
+    "label": "sample",
+    "score": 0.088,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "detector",
+    "score": 0.0746,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "detector elements",
+    "score": 0.0705,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "elements",
+    "score": 0.0613,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "local",
+    "score": 0.0613,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "information",
+    "score": 0.0548,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "8725472"
+    ]
+   },
+   {
+    "label": "sample period clock cycle",
+    "score": 0.0541,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "sample period clock",
+    "score": 0.0485,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "period clock cycle",
+    "score": 0.0485,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "array",
+    "score": 0.048,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "elected question",
+    "score": 0.0468,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "8725472"
+    ]
+   },
+   {
+    "label": "step",
+    "score": 0.0462,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "4683202"
+    ]
+   },
+   {
+    "label": "sample period",
+    "score": 0.046,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "sequence",
+    "score": 0.0443,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "4683202"
+    ]
+   },
+   {
+    "label": "input information",
+    "score": 0.0433,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "8725472"
+    ]
+   },
+   {
+    "label": "components",
+    "score": 0.0431,
+    "aliases": [],
+    "patent_count": 2,
+    "patents": [
+     "10000000",
+     "8725472"
+    ]
+   },
+   {
+    "label": "period clock",
+    "score": 0.0429,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "clock cycle",
+    "score": 0.0429,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "elected",
+    "score": 0.0428,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "8725472"
+    ]
+   },
+   {
+    "label": "input",
+    "score": 0.0411,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "8725472"
+    ]
+   },
+   {
+    "label": "period",
+    "score": 0.04,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "clock",
+    "score": 0.04,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "10000000"
+    ]
+   },
+   {
+    "label": "criterion",
+    "score": 0.0385,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "8725472"
+    ]
+   },
+   {
+    "label": "primers",
+    "score": 0.0369,
+    "aliases": [],
+    "patent_count": 1,
+    "patents": [
+     "4683202"
+    ]
+   }
+  ],
+  "technology_domains": [
+   {
+    "patents": [
+     "10000000",
+     "8725472"
+    ],
+    "concepts": [
+     "simulation",
+     "question",
+     "light",
+     "sample",
+     "detector",
+     "detector elements"
+    ],
+    "cpc": [
+     "G01S7/4863",
+     "G01S7/4865",
+     "G01S7/4914",
+     "G01S7/4917",
+     "G05B17/02"
+    ]
+   },
+   {
+    "patents": [
+     "4683202"
+    ],
+    "concepts": [
+     "nucleic",
+     "nucleic acid",
+     "acid",
+     "step",
+     "sequence",
+     "primers"
+    ],
+    "cpc": [
+     "B01L7/52",
+     "C07K14/805",
+     "C12N15/10",
+     "C12Q1/6827",
+     "C12Q1/6853",
+     "C12Q1/6858"
+    ]
+   }
+  ],
+  "total_citations": 9
+ }
+}
