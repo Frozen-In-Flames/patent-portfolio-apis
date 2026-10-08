@@ -109,3 +109,51 @@ def html_report(title: str, patents: List[Patent],
                          + "</p>")
     parts.append("</body></html>")
     return "\n".join(parts)
+
+
+def merger_report(title: str, comparison: Dict[str, Any]) -> str:
+    a, b = comparison["a"], comparison["b"]
+    L: List[str] = [
+        f"# {title}", "",
+        f"Comparing **{a['title']}** ({a['patent_count']} patents) "
+        f"with **{b['title']}** ({b['patent_count']} patents).", "",
+        "## Overlap",
+        "",
+        f"- Shared concepts: **{comparison['overlap_concept_count']}**",
+        f"- Shared CPC classes: **{len(comparison['cpc_overlap'])}**",
+        f"- Concepts only in {a['title']}: "
+        f"**{comparison['unique_a_count']}**",
+        f"- Concepts only in {b['title']}: "
+        f"**{comparison['unique_b_count']}**",
+        "",
+    ]
+    if comparison["concept_overlap"]:
+        L.append("### Shared concepts (top 20)")
+        L.append("")
+        for c in comparison["concept_overlap"][:20]:
+            L.append(f"- {c['label']} — A: {', '.join('US ' + n for n in c['a_patents'])}; "
+                     f"B: {', '.join('US ' + n for n in c['b_patents'])}")
+        L.append("")
+    if comparison["redundant_pairs"]:
+        L.append("## Most redundant cross-portfolio pairs")
+        L.append("")
+        for r in comparison["redundant_pairs"][:10]:
+            L.append(f"- **US {r['a_number']}** ({r['a_title'][:60]}) "
+                     f"<-> **US {r['b_number']}** ({r['b_title'][:60]}) "
+                     f"[score {r['score']}]")
+            if r["shared_concepts"]:
+                L.append(f"  shared: {', '.join(r['shared_concepts'][:8])}")
+        L.append("")
+    else:
+        L.append("_No overlapping patents found — the portfolios cover "
+                 "distinct territory._")
+        L.append("")
+    for side, key in ((a["title"], "concepts_unique_to_a"),
+                      (b["title"], "concepts_unique_to_b")):
+        uniq = comparison[key][:15]
+        if uniq:
+            L.append(f"## Unique to {side}")
+            L.append("")
+            L.append(", ".join(c["label"] for c in uniq))
+            L.append("")
+    return "\n".join(L)

@@ -107,6 +107,21 @@ class Patent:
         return d
 
 
+def patent_from_dict(d: Dict[str, Any]) -> Patent:
+    """Rebuild a Patent from ``to_dict()`` output (e.g. merged portfolios)."""
+    p = Patent(number=str(d.get("number", "")))
+    for key in Patent.__dataclass_fields__:
+        if key == "number" or key not in d:
+            continue
+        if key == "citations":
+            p.citations = [Citation(**c) for c in d["citations"]]
+        elif key == "foreign_citations":
+            p.foreign_citations = [Citation(**c) for c in d["foreign_citations"]]
+        else:
+            setattr(p, key, d[key])
+    return p
+
+
 def _norm_name(name: str) -> str:
     """'Last; First' -> 'First Last'."""
     parts = [p.strip() for p in name.split(";")]

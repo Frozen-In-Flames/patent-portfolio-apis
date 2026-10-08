@@ -46,6 +46,28 @@ python -m venv .venv && .venv/bin/pip install -r requirements.txt
 # open http://127.0.0.1:8000  — UI, /docs — interactive API
 ```
 
+## M&A portfolio merging (v0.2.0)
+
+Build two portfolios, then merge them to see overlap, redundancies, and gaps —
+the technical half of patent due diligence when two firms combine:
+
+```bash
+.venv/bin/python cli.py build 10000000 12748198 --out ./optics-co --title "OpticsCo"
+.venv/bin/python cli.py build 12754414 12748194 --out ./photonix --title "Photonix"
+.venv/bin/python cli.py merge ./optics-co ./photonix --out ./merged --title "OpticsCo + Photonix"
+.venv/bin/python cli.py serve ./merged
+```
+
+The merge produces:
+
+- `MERGER.md` — shared concepts, most redundant cross-portfolio patent pairs
+  (ranked), and concepts unique to each side
+- `/api/v1/merge/summary` — overlap counts and shared CPC classes
+- `/api/v1/merge/concept-overlap` — every concept held by both sides
+- `/api/v1/merge/redundant-pairs` — patent pairs across the two portfolios,
+  ranked by shared concepts and CPC classes
+- `/api/v1/merge/gaps` — concepts and CPC classes unique to each side
+
 ## Layout
 
 ```

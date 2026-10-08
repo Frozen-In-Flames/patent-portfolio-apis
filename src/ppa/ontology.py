@@ -38,6 +38,7 @@ STOPWORDS = {
     "apparatus", "device", "devices", "process", "use", "used", "using",
     "based", "via", "per", "etc", "eg", "ie", "fig", "figs",
     "claim", "claims", "invention", "embodiment", "embodiments",
+    "according", "respectively", "thereby", "therein",
 }
 
 _TOKEN_RE = re.compile(r"[a-zA-Z][a-zA-Z0-9\-]*")

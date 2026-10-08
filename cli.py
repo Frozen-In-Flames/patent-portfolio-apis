@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                 "src"))
 
 from ppa import __version__  # noqa: E402
-from ppa import api_gen, ontology, report  # noqa: E402
+from ppa import api_gen, merge, ontology, report  # noqa: E402
 from ppa.models import Patent, from_ppubs  # noqa: E402
 from ppa.uspto import PPUBSClient, USPTOError  # noqa: E402
 
@@ -112,6 +112,61 @@ def cmd_build(args: argparse.Namespace) -> int:
     return 0
 
 
+def _load_portfolio_data(dir: str) -> dict:
+    path = os.path.join(dir, "portfolio_data.json")
+    if not os.path.exists(path):
+        print(f"no portfolio_data.json in {dir} — run build first")
+        raise SystemExit(1)
+    with open(path) as fh:
+        return json.load(fh)
+
+
+def cmd_merge(args: argparse.Namespace) -> int:
+    da = _load_portfolio_data(args.a)
+    db = _load_portfolio_data(args.b)
+    print(f"comparing '{da['meta']['title']}' ({da['meta']['patent_count']}) "
+          f"with '{db['meta']['title']}' ({db['meta']['patent_count']}) ...")
+    comparison = merge.compare(da, db)
+
+    # combined portfolio: every patent from both sides, deduped
+    seen, patents = set(), []
+    for p in da["patents"] + db["patents"]:
+        if p["number"] not in seen:
+            seen.add(p["number"])
+            patents.append(p)
+    print("rebuilding combined ontology ...")
+    from ppa.models import patent_from_dict
+    patent_objs = [patent_from_dict(p) for p in patents]
+    onto = ontology.build_ontology(patent_objs)
+
+    data = {
+        "meta": {
+            "title": args.title,
+            "version": __version__,
+            "patent_count": len(patents),
+            "numbers": [p["number"] for p in patents],
+            "merged_from": [da["meta"]["title"], db["meta"]["title"]],
+        },
+        "patents": patents,
+        "ontology": onto,
+        "merge": comparison,
+    }
+    paths = api_gen.generate(args.out, data)
+    with open(os.path.join(args.out, "merge.json"), "w") as fh:
+        json.dump(comparison, fh, indent=1)
+    with open(os.path.join(args.out, "MERGER.md"), "w") as fh:
+        fh.write(report.merger_report(args.title, comparison))
+
+    print(f"\nmerged -> {args.out}")
+    print(f"  shared concepts : {comparison['overlap_concept_count']}")
+    print(f"  unique to A      : {comparison['unique_a_count']}")
+    print(f"  unique to B      : {comparison['unique_b_count']}")
+    print(f"  redundant pairs  : {len(comparison['redundant_pairs'])}")
+    print(f"  report           : {args.out}/MERGER.md")
+    print(f"\nserve it:  python cli.py serve {args.out}")
+    return 0
+
+
 def cmd_serve(args: argparse.Namespace) -> int:
     import uvicorn
     app_path = os.path.join(args.dir, "portfolio_api.py")
@@ -140,6 +195,14 @@ def main() -> int:
     b.add_argument("--title", default="Patent Portfolio",
                    help="portfolio title")
     b.set_defaults(func=cmd_build)
+
+    m = sub.add_parser("merge", help="compare two portfolios (M&A overlap)")
+    m.add_argument("a", help="first portfolio directory (from build)")
+    m.add_argument("b", help="second portfolio directory (from build)")
+    m.add_argument("--out", required=True, help="output directory")
+    m.add_argument("--title", default="Merged Portfolio",
+                   help="merged portfolio title")
+    m.set_defaults(func=cmd_merge)
 
     s = sub.add_parser("serve", help="serve a built portfolio API locally")
     s.add_argument("dir", help="output directory from build")
