@@ -1,0 +1,23 @@
+# Show HN draft — Patent Portfolio APIs v0.2.0 (M&A merge)
+
+Status: DRAFT — not posted. Needs Aries's one-line approval before anything goes live.
+
+## Title
+
+Show HN: Patent Portfolio APIs: turn USPTO patents into queryable APIs, now with M&A merge analysis
+
+## Body
+
+I built a tool that converts any inventor's USPTO patent portfolio into per-patent REST APIs plus a portfolio-wide ontology summary.
+
+Give it patent numbers or an inventor name. It pulls full records from USPTO's public search API (no key needed), parses the claims, citations, and CPC classification codes, expands acronyms in the language, and generates a runnable FastAPI server plus Markdown/HTML reports.
+
+v0.2.0 adds the use case I care about most: M&A portfolio merge. Feed it two portfolios and it shows the shared technical concepts, ranked redundant patent pairs across the two sides, and coverage gaps on each side. The demo merges two 3-patent LiDAR portfolios and flags, for example, a Toshiba LiDAR device overlapping a DJI scanning optical assembly.
+
+The pitch: M&A IP due diligence currently takes weeks of billable hours just to answer "where do these portfolios overlap, where are the gaps, what are we double-holding?" This answers the technical half of that in one run. Price it against legal bills, not software.
+
+Free, Apache-2.0, runs locally. GitHub: https://github.com/AriesConsulting/patent-portfolio-apis
+itch.io (free download): https://frozen-in-flames.itch.io/patent-portfolio-apis
+Live demo: https://ariesconsulting.github.io/patent-portfolio-apis/ (static, goes live with the 3-click Pages flip; Hugging Face Space follows once the token is refreshed)
+
+Happy to take questions or feature requests. If you have done IP due diligence in a real deal, I would especially like to hear where this falls short.
