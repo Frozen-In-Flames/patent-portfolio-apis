@@ -29,7 +29,7 @@ side. This is the due-diligence workflow the tool is built for.
 Build your own portfolio from the source (no API key needed — it reads the
 public USPTO Patent Public Search API):
 
-**GitHub:** https://github.com/AriesConsulting/patent-portfolio-apis
+**GitHub:** https://github.com/Frozen-In-Flames/patent-portfolio-apis
 
 ```bash
 python cli.py build 10000000 4683202 --out ./my-portfolio
