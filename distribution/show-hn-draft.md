@@ -16,8 +16,8 @@ v0.2.0 adds the use case I care about most: M&A portfolio merge. Feed it two por
 
 The pitch: M&A IP due diligence currently takes weeks of billable hours just to answer "where do these portfolios overlap, where are the gaps, what are we double-holding?" This answers the technical half of that in one run. Price it against legal bills, not software.
 
-Free, Apache-2.0, runs locally. GitHub: https://github.com/AriesConsulting/patent-portfolio-apis
+Free, Apache-2.0, runs locally. GitHub: https://github.com/Frozen-In-Flames/patent-portfolio-apis
 itch.io (free download): https://frozen-in-flames.itch.io/patent-portfolio-apis
-Live demo: https://ariesconsulting.github.io/patent-portfolio-apis/ (static, goes live with the 3-click Pages flip; Hugging Face Space follows once the token is refreshed)
+Live demo: https://frozen-in-flames.github.io/patent-portfolio-apis/ (live static demo; Hugging Face Space follows once the token is refreshed)
 
 Happy to take questions or feature requests. If you have done IP due diligence in a real deal, I would especially like to hear where this falls short.
