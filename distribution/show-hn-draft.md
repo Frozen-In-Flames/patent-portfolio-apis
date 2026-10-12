@@ -1,6 +1,6 @@
 # Show HN draft — Patent Portfolio APIs v0.2.0 (M&A merge)
 
-Status: DRAFT — not posted. Needs Aries's one-line approval before anything goes live.
+Status: APPROVED by Aries Oct 12, 2026 — post Tue Oct 13 morning ET. Quick-start fix pushed to main and live on the demo.
 
 ## Title
 
