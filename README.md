@@ -1,8 +1,6 @@
 # Patent Portfolio APIs
 
-Turn **any inventor's USPTO patent portfolio** into live REST APIs — one API
-per patent — plus a **portfolio-wide ontology summary** (key concepts, CPC
-technology taxonomy, knowledge graph, technology clusters).
+Software for inventors holding USPTO patents: a portfolio is converted into a live REST API per patent, together with a portfolio-wide ontology summary comprising key concepts, the CPC technology taxonomy, a knowledge graph, and technology clusters.
 
 Built for inventors who already hold USPTO patents and want their portfolio
 to be machine-readable: license it, search it, plug it into products.
