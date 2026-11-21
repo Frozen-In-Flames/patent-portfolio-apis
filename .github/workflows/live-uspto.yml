@@ -1,0 +1,21 @@
+name: Live USPTO tests (opt-in)
+# The live suite hits the real USPTO PPUBS API. It never runs on push
+# or pull request. It runs only when a maintainer dispatches it, so
+# the offline CI gate stays deterministic and the USPTO is not
+# polled by automation.
+on:
+  workflow_dispatch:
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install test requirements
+        run: pip install -r requirements.txt pytest httpx requests
+      - name: Live USPTO suite
+        env:
+          PYTHONPATH: src
+        run: python -m pytest tests/ -m live -v
