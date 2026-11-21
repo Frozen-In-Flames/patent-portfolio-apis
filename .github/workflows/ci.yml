@@ -3,7 +3,9 @@
 #   python -m pytest tests/ -m "not live"
 # The live suite hits the USPTO API and is not run in CI.
 # Dependencies from requirements.txt, which includes the dev and
-# test requirements (pytest, httpx).
+# test requirements (pytest, httpx). The package lives in src/ppa
+# and pytest.ini sets no pythonpath, so the test step puts src on
+# PYTHONPATH, matching the layout the suite imports.
 # Added under the November 2026 audit follow-through.
 name: CI
 on:
@@ -22,4 +24,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run offline tests
+        env:
+          PYTHONPATH: src
         run: python -m pytest tests/ -m "not live"
